@@ -1,0 +1,22 @@
+.navbar-nav .nav-item a{
+  text-decoration: none;
+  margin: 40px;
+  color: snow;
+  font-size: 1.5rem;
+  
+} 
+
+@media screen and (min-width:990px){
+  .navbar-collapse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width:990px){
+  .navbar-collapse{
+    display: flex;
+    justify-content: left;
+    align-items: start;
+  }
+}
