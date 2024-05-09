@@ -6,9 +6,7 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-lg bg-success overflow-hidden  ">
         <div className="container-fluid">
-          <a className="navbar-brand fs-1" href="#">
-            Guvi
-          </a>
+          <a className="navbar-brand" href="#"></a>
           <button
             className="navbar-toggler"
             type="button"
@@ -20,10 +18,7 @@ const Navbar = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div
-            className="collapse navbar-collapse  "
-            id="navbarNav"
-          >
+          <div className="collapse navbar-collapse  " id="navbarNav">
             <ul className="navbar-nav  ">
               <li className="nav-item">
                 <Link to="/">ALL</Link>
